@@ -55,9 +55,12 @@ export enum NativeLLM {
   Aleph_Alpha_Luminous_SupremeControl = "luminous-supreme-control",
 
   // HuggingFace Inference hosted models, suggested to users
+
   HF_GPT2 = "gpt2",
-  HF_BLOOM_560M = "bigscience/bloom-560m",
+  HF_MISTRAL_7B_INSTRUCT = "mistralai/Mistral-7B-Instruct-v0.1"
+  HF_ZEPHYR_7B_BETA = "HuggingFaceH4/zephyr-7b-beta",
   HF_FALCON_7B_INSTRUCT = "tiiuae/falcon-7b-instruct",
+  HF_BLOOM_560M = "bigscience/bloom-560m",
   HF_SANTACODER = "bigcode/santacoder",
   HF_STARCODER = "bigcode/starcoder",
   HF_DIALOGPT_LARGE = "microsoft/DialoGPT-large", // chat model
